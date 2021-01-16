@@ -21,7 +21,7 @@ var exit1 = document.getElementById("exit-popup1");
 var exit2 = document.getElementById("exit-popup2");
 var exit3 = document.getElementById("exit-popup3");
 var exit4 = document.getElementById("exit-popup4");
-var bgpopup = document.getElementById("popup-image");
+var bgpopup = document.getElementById("popup-image")
 
 
 function imagepopup(x) {
