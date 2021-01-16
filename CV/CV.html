@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="name">
+            <h1 class="name1">CURRICULUM VITAE</h1>
+            <h1 class="name2">EAG UDOMSIN</h1>
+        </div>
+        <nav>
+            <a href="#" class="hide-desktop">
+                <img src="HAM.png" alt="toggle menu" class="menu" id="menu">
+            </a>
+            <ul class="show-desktop hide-mobile" id="nav">
+                <li id="exit" class="hide-desktop exit-btn"><img src="CLOSE.svg" alt="exit menu"></li>
+                <li class="desktop-menu"><a href="#">HOME</a></li>
+                <li class="desktop-menu"><a href="#">SERVICE</a></li>
+                <li class="desktop-menu"><a href="#">CONTACT</a></li>
+                <li class="desktop-menu"><a href="#">LICENSE</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section>
+        <div class="first-container">
+            <img src="PROFILE.jpg" alt="profile-image" class="profile-pic">
+            <div class="profile">
+                <h2>PROFILE</h2>
+                <p>Started my career as structural engineer at well-known and outstanding company in Thailand,
+                    achieving varies experiences in the area of structural conceptual design and detail analysis. 
+                    Eager to explore more on area related to cost estimation, construction management and geotechnical design.</p>
+            </div>
+        </div>
+        <div class="first-transition">
+            <div class="triangle1"></div>
+            <div class="triangle2"></div>
+        </div>
+        <div>
+            <div class="second-container">
+                <div class="education">
+                    <h2>EDUCATION</h2>
+                        <ul>
+                            <li>Prachinratsadornamroong School (2006 – 2012)</li>
+                            <li>Faculty of Engineering (Civil Engineer), Chulalongkorn University (2012 – 2017)</li>
+                            <li>Engineering license class 3 (Phor Yor) Membership at Council of Engineers, Thailand (2018 – Present)</li>
+                            <li>Internal Training (Retaining Wall Design): I used to be a moderator who train others teammate in retaining wall analysis design topic.</li>
+                            <li>Internal Training (Elemental structural design for new trainee): I got the responsibility to help and support university student trainees for 3 months</li>
+                            <li>SGS Certification ISO9001: Quality Management Systems (External annual audit)</li>
+                        </ul>
+                </div>
+                <div class="skill">
+                    <h2>SKILL</h2>
+                        <ul>
+                            <li>Structural Analysis and Design (RC and Steel)</li>
+                            <li>Expert in retaining wall analysis and design (Created personal spreadsheet)</li>
+                            <li>Microsoft office</li>
+                            <li>Structural Program
+                                <ul>
+                                    <li><img src="SAP2000.png" alt="SAP2000">SAP2000</li>
+                                    <li><img src="SAFE.png" alt="SAFE">SAFE</li>
+                                    <li><img src="ETABS.png" alt="ETABS">ETABS</li>
+                                </ul>
+                            </li>
+                            <li>Have a driving license</li>
+                        </ul>
+                </div>    
+            </div>
+        </div>
+        <div class="second-transition">
+            <div class="triangle3"></div>
+            <div class="triangle4"></div>
+        </div>
+        <div class="third-container">
+            <h2>EMPLOYMENT EXPERIENCE</h2>
+                <h3>BECA(Thailand) Co., Ltd – Structural Engineer
+                    November 2016 – October 2020</h3>
+                <ul class="expexam">
+                    <li><h4>Avadina Hills Resort, Phuket</h4><img src="AVADINA.jpg" alt="Avadina picture"><p> The grand luxury residents project near Layan beach, Respond for structural design and RFI answer.</p></li>
+                    <li><h4>Anantara Layan Phuket Resort, Phuket</h4><img src="ANANTARA.jpg" alt="Anantara picture"><p> Renovation work for several type of guestroom, respond for structure design and coordination with client and architect as leader project engineer. </p></li>
+                    <li><h4>Samyan Mitrtown, Bangkok</h4><img src="SYM.jpg" alt="Samyan mitrtown picture"><p> A mixed-use project on Rama4 and Phayathai road, design landscape, transfer beam and water tank in residential zone.</p></li>
+                    <li><h4>Design spreadsheet verification</h4><img src="EXCEL.png" alt="excel picture"><p> Inspect and modify excel spreadsheet that use designing tool of structural engineers.</p></li>
+                </ul>
+        </div>
+        <div class="third-transition">
+            <div class="triangle5"></div>
+            <div class="triangle6"></div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <a href="#" class="ads">ADVERTISE</a>
+            <a href="#" class="priv">PRIVATE POLICY</a>
+        </nav>
+
+    </footer>
+
+    <script>
+
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+
+        menu.addEventListener('click',function(e){
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        });
+
+        exit.addEventListener('click',function(e){
+            nav.classList.add('hide-mobile');
+            e.preventDefault();
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+    margin:0;
+}
+
+h2 {
+    font-size: 1.1em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+h4 {
+    font-size: 0.9em;
+    font-style: bold;
+}
+
+p, li {
+    font-size: 0.9em;
+    line-height: 1.7em;
+}
+
+header {
+    background-color: rgb(190, 225, 255);
+    padding:0.5%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 0.55em;
+    padding-left:2%;
+    line-height: 0.8em;
+}
+
+.name1 {
+    margin-top: 10%;
+}
+
+.hide-mobile {
+    display: none;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav .menu {
+    float: right;
+    width: 2em;
+    margin-top: 15%;
+    margin-right: 8%
+}
+
+.first-container {
+    text-align: center;
+    height:82.5vh;
+}
+
+.profile-pic {
+    width:40%;
+    margin-top:2em;
+    border: solid 5px rgba(180, 180, 180, 0.5);
+}
+
+.profile {
+    padding-left:4%;
+    padding-right:4% ;
+}
+
+.first-transition {
+    display:flex;
+}
+
+.triangle1 {
+    background-color: rgb(135, 255, 215);
+    display: inline-block;
+    width: 50vw;
+    height:70px;
+    transform:skewY(7deg);
+    z-index: -5;
+
+}
+.triangle2 {
+    background-color: rgb(135, 255, 215);
+    display: inline-block;
+    width: 50vw;
+    height:70px;
+    transform:skewY(-7deg);
+    z-index: -5;
+}
+
+.second-container {
+    background-color: rgb(135, 255, 215);
+    margin-top: -50px;
+    padding-top: 10vh;
+    padding-bottom: 10em;
+    text-align: center;
+    z-index: -4;
+    padding-left:4%;
+    padding-right:4% ;
+}
+
+.second-container ul li {
+    text-align: left;
+}
+
+.second-container ul li img {
+    width: 1em;
+}
+
+.skill {
+    margin-top: 4em;
+}
+
+.second-transition {
+    display:flex;
+    margin-top: -5em;
+    z-index: -3;
+}
+
+.triangle3 {
+    background-color: rgb(201, 201, 201);
+    display: inline-block;
+    width: 50vw;
+    height:70px;
+    transform:skewY(7deg);
+}
+
+.triangle4 {
+    background-color: rgb(201, 201, 201);
+    display: inline-block;
+    width: 50vw;
+    height:70px;
+    transform:skewY(-7deg);
+}
+
+.third-container {
+    background-color: rgb(201, 201, 201);
+    padding-top:5vh;
+    margin-top:-5vh;
+    text-align: center;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 10vh;
+}
+
+.third-container ul  {
+    text-align: center;
+    padding-left: 0px;
+}
+.third-container ul li {
+    list-style-type: none;
+    margin-bottom:10%;
+}
+
+.third-container ul li img {
+    width: 50%;
+    border: solid 5px rgba(180, 180, 180, 0.5);
+}
+
+.third-transition {
+    display:flex;
+    margin-top: -5em;
+    z-index: 2;
+}
+
+.triangle5 {
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    width: 50vw;
+    height:70px;
+    transform:skewY(7deg);
+    z-index: 0;
+
+}
+.triangle6 {
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    width: 50vw;
+    height:70px;
+    transform:skewY(-7deg);
+    z-index: 0;
+}
+
+footer {
+    background-color: black;
+    margin-top: -50px;
+    padding-top: 5vh;
+    padding-bottom: 3em;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+footer a {
+    color:white;
+}
+
+.ads {
+    float:left;
+    padding-left: 4%;
+}
+
+.priv {
+    float:right;
+    padding-right: 4%;
+}
+
+header nav ul {
+    position:fixed;
+    width: 40%;
+    height: 100vh;
+    right: 0;
+    top: 0;
+    margin-top: 0;
+    background-color: rgba(20, 20, 20, 0.9) ;
+    z-index: 5;
+    padding-top: 3em ;
+    text-align: center;
+    padding-left: 0;
+}
+
+header nav ul img{
+    width: 1em;
+    margin-left: 80%;
+    right: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    background-color: rgb(70, 70, 70,) ;
+    display:block;
+    text-align: left;
+    padding-left: 1em;
+}
+
+header nav ul li a:hover {
+    background-color: rgb(95, 95, 95) ;
+}
+
+@media only screen and (min-width: 480px) {
+
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    h3 {
+        font-size: 1.3em;
+    }
+    
+    h4 {
+        font-size: 0.95em;
+        font-style: bold;
+    }
+    
+    p, li {
+        font-size: 0.95em;
+        line-height: 1.7em;
+    }
+    
+    .name {
+        display: flex;
+    }
+
+    .name1, .name2 {
+        padding-top: 5%;
+        margin-top: 0;
+        padding-right: 1em;
+        font-size: 2.3em;
+    }
+
+    .profile-pic {
+        width: 25%;
+    }
+
+    .first-container {
+        height: 80vh;
+    }
+
+    .second-container {
+        margin-top: -30px;
+        padding-top: 5vh;
+    }
+
+    .third-container ul li img {
+        width: 35%;
+        border: solid 5px rgba(180, 180, 180, 0.5);
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    h3 {
+        font-size: 1.3em;
+    }
+    
+    h4 {
+        font-size: 0.95em;
+        font-style: bold;
+    }
+    
+    p, li {
+        font-size: 0.95em;
+        line-height: 1.7em;
+    }
+
+    .hide-desktop {
+        display: none;
+    }
+
+    
+    .name {
+        display: flex;
+    }
+
+    .name1, .name2 {
+        padding-top: 5%;
+        margin-top: 0;
+        padding-right: 1em;
+        font-size: 2.3em;
+    }
+
+    header nav .show-desktop {
+        display: flex;
+        background-color: inherit;
+        position: absolute;
+        top: -5.5%;
+        right: 5%;
+        width:auto;
+    }
+
+    header nav .desktop-menu a {
+        color: black;
+    }
+
+    header nav .desktop-menu a:hover {
+        background-color: inherit;
+    }
+
+    .first-container {
+        height: 40vh;
+    }
+
+    .profile-pic {
+        float: left;
+        margin-left: 4%;
+        margin-right: 4%;
+        width: 12.5%;
+        max-width: 105px;
+    }
+
+    .profile {
+        display: inline;
+        text-align: left;
+    }
+
+    .triangle1 {
+        height:70px;
+        transform:skewY(5deg);
+    }
+
+    .triangle2 {
+        height:70px;
+        transform:skewY(-5deg);
+    }
+
+    .second-container {
+        display: flex;
+    }
+
+    .second-container h2 {
+        font-size: 1em;
+    }
+
+    .second-container p {
+        font-size: 0.75em;
+    }
+
+    .skill {
+        margin-top: 0;
+        margin-left: 3em;
+    }
+
+    .skill, .education {
+        background-color: rgb(61, 234, 240);
+        border-radius: 50px;
+    }
+
+    .triangle3 {
+        height:70px;
+        transform:skewY(5deg);
+    }
+    
+    .triangle4 {
+        height:70px;
+        transform:skewY(-5deg);
+    }
+
+    .third-container {
+        padding-top: 10%;
+        margin-top: -5%;
+    }
+
+    .expexam {
+        display: flex;
+    }
+
+    .expexam img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .triangle5 {
+        height:100px;
+        transform:skewY(5deg);
+    }
+    
+    .triangle6 {
+        height:100px;
+        transform:skewY(-5deg);
+    }
+}
+
+@media only screen and (width:320px) {
+
+    body, footer, header {
+        color:red;
+        background-color: red;
+    }
+
+    .first-container, .second-container, .third-container {
+        color:red;
+        background-color: red;
+    }
+
+    .first-transition, .second-transition, .third-transition {
+        color:red;
+        background-color: red;
+    }
+
+    .triangle3, .triangle4, .triangle5, .triangle6 {
+        color:red;
+        background-color: red;
+    }
+
+    img {
+        display: none;
+    }
+}
+
+
+
+
+

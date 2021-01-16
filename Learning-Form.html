@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Learning Forms</title>
+        <style>
+            textarea,Add {background-color: lemonchiffon;width: 250px;}
+            form {display: inline;}
+            select, Attri {color: purple;}
+        </style>
+    </head>
+    <body>
+        <div style="display: inline;">
+            <h1 style="font-size: x-large;font-style:bold;">REGISTER</h1>
+            <form>
+                Name: <input type="text" name="Name" style="background-color: burlywood;margin-left: 31px;"><br>
+                Last Name: <input type="text" name="Lastname" style="background-color: cornsilk;"><br>
+            </form>
+            <form>
+                Password: <input type="password" name="Pass" style="background-color: darkgray;margin-left: 8px;"><br>
+            </form>
+            <form>
+                Address: <br><textarea name="address" id="Add"cols="30" rows="10"></textarea>
+            </form>
+        </div><br>
+        <div style="display: inline;">
+            <form>
+                <b>Choose one:</b> <br>
+                <input type="radio" name="Favor" value="Chocolate"><span style="color: brown;"> Chocolate </span><br>
+                <input type="radio" name="Favor" value="Strawberry"><span style="color: palevioletred;"> Strawberry </span><br>
+                <input type="radio" name="Favor" value="Green Tea"><span style="color:green;"> Green Tea </span><br>
+                <input type="radio" name="Favor" value="Salted Egg"><span style="color: orange;"> Salted Egg </span><br>
+            </form>
+        </div>
+        <br>
+        <div>
+            <form>
+                <b>Spirit</b><br>
+                <input type="checkbox" name="check1"value=STROM>STORM <br>
+                <input type="checkbox" name="check2"value=EARTH>EARTH <br>
+                <input type="checkbox" name="check3"value=FIRE>FIRE <br>
+                <input type="checkbox" name="check4"value=VOID>VOID <br>
+            </form>
+            <br>
+            <form>
+                <b>Attribute</b>
+                <select name="Attribute" id="Attri">
+                    <option value="STR">STR</option>
+                    <option value="AGI">AGI</option>
+                    <option value="INT">INT</option>
+                    <option value="NGO">NGO</option>
+                </select>
+                <br><br>
+                <input type="submit" value="ไปต่อเลย">
+            </form>
+        </div>
+
+    </body>
+
+</Html>
